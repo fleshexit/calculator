@@ -65,3 +65,38 @@ clearButton.addEventListener("click", () => {
 function updateDisplay(content) {
   screenDisplay.textContent = content;
 }
+
+function add(a, b) {
+    return a + b;
+  }
+  
+  function subtract(a, b) {
+    return a - b;
+  }
+  
+  function divide(a, b) {
+    if (b !== 0) {
+      return a / b;
+    } else {
+      return "Divide by zero error";
+    }
+  }
+  
+  function multiply(a, b) {
+    return a * b;
+  }
+  
+  function operate(operator, a, b) {
+    switch (operator) {
+      case "+":
+        return add(a, b);
+      case "-":
+        return subtract(a, b);
+      case "÷":
+        return divide(a, b);
+      case "x":
+        return multiply(a, b);
+      default:
+        return "Invalid operator";
+    }
+  }
