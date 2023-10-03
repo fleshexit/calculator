@@ -82,7 +82,7 @@ function divide(a, b) {
   if (b !== 0) {
     return a / b;
   } else {
-    return "Divide by zero error";
+    return "Error";
   }
 }
 
@@ -101,6 +101,6 @@ function operate(operator, a, b) {
     case "x":
       return multiply(a, b);
     default:
-      return "Invalid operator";
+      return "Error";
   }
 }
