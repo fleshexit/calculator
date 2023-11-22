@@ -4,7 +4,7 @@ A basic web-based calculator implemented with HTML, CSS, and JavaScript. Perform
 
 ## Demo
 
-View the live demo [here](https://chrlie-w.github.io/calculator).
+View the live demo [here](https://fleshexit.github.io/calculator).
 
 ## Features
 
